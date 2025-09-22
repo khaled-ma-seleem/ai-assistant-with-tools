@@ -1,6 +1,6 @@
 # AI Assistant with Tools
 
-A modular AI assistant built with Streamlit, LangGraph, and multiple LLM backends (Gemini, Llama). The system provides document processing, OCR capabilities, and tool integration for enhanced question-answering and data analysis.
+AI assistant built with Streamlit, LangGraph, and multiple LLM backends (Gemini, Llama). The system provides document processing, OCR capabilities, and tool integration for enhanced question-answering and data analysis.
 
 ## Features
 
