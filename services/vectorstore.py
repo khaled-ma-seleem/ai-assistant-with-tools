@@ -5,10 +5,10 @@ import easyocr
 import pandas as pd
 from io import BytesIO
 from PIL import Image
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.document_loaders import PyPDFLoader, UnstructuredHTMLLoader
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.document_loaders import PyPDFLoader, UnstructuredHTMLLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from config import Config
 
 class VectorStoreManager:
