@@ -31,6 +31,6 @@ run_qwen:
 	
 run_app:
 	mkdir -p logs
-	nohup streamlit run app.py > logs/web_app.log 2>&1 &
+	nohup python -m streamlit run ui/app.py > logs/web_app.log 2>&1 &
 
 setup: install_deps install_ollama start_ollama pull_llama run_app
